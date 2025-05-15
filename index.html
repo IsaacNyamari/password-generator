@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="favicon-32x32.png" type="image/x">
+    <link rel="apple-touch-icon" href="favicon.ico">
+    <link rel="manifest" href="manifest.json">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>Password Generator</title>
+
+</head>
+
+<body>
+    <div class="login-container">
+        <div class="login-app col-md-4">
+            <h5 class="text-center">Password Generator</h5>
+            <form>
+                <div class="form-group">
+                    <input type="password" class="form-control rounded-pill text-center" id="password">
+                </div>
+                <div style="margin-bottom: 10px; display: flex; justify-content: space-between; gap: 10px;" class="grouped">
+                    <button type="button" id="generatePassword" class="btn btn-info" style="flex: 1;"><i class="fa fa-refresh" aria-hidden="true"></i> Generate</button>
+                    <button type="button" id="togglePassword" onclick="togglePasswordVisibility()" class="btn btn-warning" style="flex: 1; width: fit-content;"><i class="fa fa-eye" aria-hidden="true"></i> Show</button>
+                    <button type="button" id="copyPassword" class="btn btn-danger" style="flex: 1;"><i class="fas fa-copy"></i> Copy</button>
+                </div>
+                <p class="form-text text-muted">
+                    <i class="fas fa-info-circle"></i> Click the button to generate a password.
+                </p>
+            </form>
+
+        </div>
+    </div>
+    </form>
+
+    </div>
+    </div>
+    <script src="script.js"></script>
+
+    </script>
+</body>
+
+</html>
